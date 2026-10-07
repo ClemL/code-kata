@@ -1,0 +1,10 @@
+<!-- Compiles every reference Solution.cs against its Tests.cs. `dotnet test` here must be green. -->
+<Project Sdk="MSTest.Sdk/4.4.1">
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../katas/**/Solution.cs" />
+    <Compile Include="../../katas/**/Tests.cs" />
+  </ItemGroup>
+</Project>

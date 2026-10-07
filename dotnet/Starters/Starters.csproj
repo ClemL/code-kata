@@ -1,0 +1,7 @@
+<!-- Compiles every Starter.cs against its Tests.cs. Must build; tests are expected to fail. -->
+<Project Sdk="MSTest.Sdk/4.4.1">
+  <ItemGroup>
+    <Compile Include="../../katas/**/Starter.cs" />
+    <Compile Include="../../katas/**/Tests.cs" />
+  </ItemGroup>
+</Project>
